@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.angle{
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.subHeader{
+    /* background-color: pink; */
+    width: 25%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subHeader a{
+    text-decoration: none;
+}
+.icons-company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-company h5{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.subHeader2{
+    width: 20%;
+    height: 90%;
+    /* background-color: grey; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+span{
+    color: green;
+}
+
+/*Header Section Ends Here*/
+/*Subscribe Section*/
+.subscribe{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.subSubscribe{
+    width: 45%;
+    height: 90%;
+    background-color: white;
+}
+.subSubscribe h1{
+    text-align: center;
+    color: black;
+}
+.payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.paymentcards{
+padding: 10px 15px;
+background-color: white;
+font-size: 17px;
+font-weight: 800;
+border-radius: 5px;
+border: 2px solid grey;
+}
+.paymentcards1{
+    padding: 12px 15px;
+    background-color: rgb(10, 10, 10);
+    font-size: 17px;
+    font-weight: 800;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+}
+.mainCard{
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Cards{
+    width: 48%;
+    height: 100%;
+    background-color: rgb(110, 104, 104);
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 0px green;
+}
+.Cards2{
+    width: 48%;
+    height: 100%;
+    background-color: rgb(110, 104, 104);
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 0px green;
+}
+.Cards p, h4,h2{
+    color: white;
+}
+.Cards2 p, h4,h2{
+    color: white;
+}
+.fa-beat-fade, .fa-check{
+    color: white;
+}
+.cardCheck{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.Cards p, h2{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.Cards2 p, h2{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.btn2{
+    display: inline-block;
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.paymentCards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.subpaymentC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-cc-mastercard, .fa-cc-visa, .fa-paypal{
+    font-size: 37px;
+}
+
+/*Subscribe Section Ends Here*/

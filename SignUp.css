@@ -1,0 +1,141 @@
+/*Header Section*/
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.angle{
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.subHeader{
+    /* background-color: pink; */
+    width: 25%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subHeader a{
+    text-decoration: none;
+}
+.icons-company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-company h5{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.subHeader2{
+    width: 20%;
+    height: 90%;
+    /* background-color: grey; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+span{
+    color: green;
+}
+
+/*Header Section Ends Here*/
+
+/*SignUp Page*/
+.SignUp{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subSignUp{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+}
+.inputTag{
+    width: 100%;
+    height: 7%;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.inputTag input{
+width: 100%;
+height: 100%;
+background-color: #EEEEEE;
+border: none;
+border-radius: 10px;
+font-size: 16px;
+}
+.cta{
+    display: inline-block;
+    background-color: black;
+    border-radius: 8px;
+    margin-right: 17px;
+    transition: .3s ease;
+    color: white;
+    width: 93%;
+    text-align: center;
+    padding: 13px 13px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.cta:hover{
+    background-color: rgb(53, 51, 51);
+}
+.line{
+    width: 100%;
+    height: 0.1%;
+    background-color: gray;
+    margin-top: 20px;
+}
+.Google{
+    width: 100%;
+    height: 7%;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.Google:hover{
+    background-color: rgb(235, 223, 223);
+}
+.Google p{
+margin-left: 10px;
+}
+.line2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+/*SignUp Page Ends Here!*/

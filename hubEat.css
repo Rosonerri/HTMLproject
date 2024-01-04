@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+}
+/*Header Section*/
+.Header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+.angle{
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.subHeader{
+    /* background-color: pink; */
+    width: 25%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons-company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-company h5{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.icons-company h5:hover{
+    border-bottom: 1px solid green;
+}
+.subHeader2{
+    width: 20%;
+    height: 90%;
+    /* background-color: grey; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+span{
+    color: green;
+}
+.cta{
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 37px;
+    transition: .3s ease;
+    color: black;
+}
+.passport{
+    width: 50%;
+    height: 50%;
+}
+.passport img{
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.cta:hover{
+ background-color: rgb(85, 80, 80);
+ color: white;
+}
+.globe{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+/*Header Section Ends Here*/
+/*Hero Section*/
+/* .heroPage{
+width: 100%;
+height: 90vh;
+background-image: url(./images/joloffmeat.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+z-index: 1;
+} */
+/* .heroPage::after{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: .7;
+    z-index: -1;
+} */
+.subHero{
+    width: 50%;
+    height: 70%;
+    /* background-color: white; */
+}
+.cta2{
+    padding: 15px 40px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 15px;
+    margin-right: 17px;
+    color: white;
+    font-size: 20px;
+    transition: .3s ease;
+}
+.cta2:hover{
+    background-color: rgb(54, 48, 48);
+}
+.subHero h1{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 40px;
+}
+hr{
+    height: 1%;
+    background-color: green;
+    border: none;
+}
+
+/*Hero Section Ends Here*/
+
+/*Hero Page*/
+.mainbody{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./images/joloffmeat.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainbody:after{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: .7;
+    z-index: -1;
+}
+.subMain{
+    width: 45%;
+    height: 75%;
+    /* background-color: white; */
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    
+}
+.subMain h1{
+text-align: center;
+font-size: 65px;
+color: white;
+}
+.subMain p{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.subsearchBar{
+    background-color: white;
+    display: inline-block;
+    width: 70%;
+    height: 6%;
+    padding: 5px;
+}
+.subsearchBar input{
+    width: 80%;
+    padding: 7.3px;
+    background-color: white;
+    outline-width: 0;
+    border: none;
+    font-size: 17px;
+}
+.subMain2{
+    width: 45%;
+    height: 75%;
+    background-image: url(./images/baked-chicken-wings-asian-style-tomatoes-sauce-plate-removebg-preview.png);
+    /* background-color: white;  */
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+.btn2{
+    display: inline-block;
+    padding: 11px 18px;
+    background-color: black;
+    border: 2px solid green;
+    color: white;
+    transition: .3s ease;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+.kits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fades{
+    color: white;
+    margin-left: 15px;
+}
+.mykits{
+    color: white;
+}
+.beats{
+    margin-left: 10px;
+}
+/*Hero Page Ends Here!*/
+
+/*Discover Section*/
+.discoverPage{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subDiscover{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(107, 177, 107); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subDiscover1{
+width: 40%;
+height: 100%;
+/* background-color: black; */
+}
+
+.subDiscover1 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+/*Discover Section Ends Here*/
+
+/*Food Section*/
+.foodPage{
+width: 100%;
+height: 130vh;
+/* background-color: orangered; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.subFood{
+    width: 95%;
+    height: 96%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.foodtitle{
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    box-shadow: 0px 0px 18px 0px green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subFood1{
+    width: 100%;
+    height: 46%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subFood2{
+    width: 100%;
+    height: 46%;
+    /* background-color: pink;  */
+}
+.subfoodCard{
+    width: 24%;
+    height: 100%;
+    /* background-color: brown; */
+    /* overflow: hidden; */
+}
+.subfoodCard1{
+    width: 24%;
+    height: 100%;
+    /* background-color: crimson; */
+}
+.subfoodCard2{
+    width: 24%;
+    height: 100%;
+    background-color: black;
+}
+.subfoodCard3{
+    width: 24%;
+    height: 100%;
+    /* background-color: white; */
+}
+.subfoodCard4{
+    width: 24%;
+    height: 100%;
+    /* background-color: orange; */
+}
+.subfoodT{
+    display: flex;
+    align-items: center;
+}
+.fader{
+    margin-left: 10px;
+}
+.subFooda{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+.subFooda img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.subFooda img:hover{
+transform: scale(1.1);
+}
+.subFoodb{
+    width: 100%;
+    height: 50%;
+    background-color: white; 
+    box-shadow: 0px 0px 18px 0 rgb(216, 211, 211);
+    
+}
+.subFoodb h5{
+    margin-left: 10px;
+}
+.subFoodb p, h4{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    color: green;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.checks{
+    margin-top: 5px;
+}
+.subFoodb .btn2{
+    margin-top: 5px;
+    margin-left: 55px;
+    border-radius: 20px;
+}
+/*Food Section Ends Here!*/
+/*Places Around Me section*/
+.places{
+    width: 100%;
+    height: 85vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    width: 95%;
+    height: 97%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.subMap1{
+    width: 20%;
+    height: 9%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subMap2{
+    width: 100%;
+    height: 88%;
+    /* background-color: brown; */
+}
+/*Places Around Me section Ends Here!*/
+
+/*HubFooter Section Ends Here!*/
+/*HubFooter Section*/
+.hubFooter{
+    width: 100%;
+    height: 90vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .subFooter{
+        width: 80%;
+        height: 90%;
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .subHub{
+        width: 25%;
+        height: 100%;
+        /* background-color: grey; */
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .subHub1{
+        width: 100%;
+        height: 30%;
+        /* background-color: pink; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .subHub1 p{
+    margin-top: 30px;
+    color: white;
+    }
+    .subHub1 h2{
+    color: white;
+    font-weight: 800;
+    }
+    .subHub2{
+        width: 100%;
+        height: 70%;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+    .subHub2 p{
+    margin-top: 20px;
+    color: white;
+    }
+    .subHub2 h3{
+    color: white;
+    font-weight: 700;
+    }
+    /*HubFooter Section Ends Here!*/
+
+/*HubFooter2 Section*/
+
+.hubFooter2{
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subHubTwo{
+    width: 90%;
+    height: 98%;
+    /* background-color: green; */
+}
+.subItems{
+    /* background-color: white; */
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subItems1{
+    /* background-color: pink; */
+    width: 100%;
+    height: 34%;
+}
+.subItems2{
+    /* background-color: orange; */
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.subItemIcons1{
+    width: 50%;
+    height: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subItemIcons2{
+    width: 20%;
+    height: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconss{
+    font-size: 30px;
+    color: green;
+    /* cursor: pointer; */
+}
+.subItems1 img{
+margin-left: 40px;
+margin-top: 15px;
+}
+.subItemIcons2 p{
+    color: white;
+}
+.subItemIcons1 p{
+    color: white;
+}
+/*HubFooter2 Section Ends Here!*/
